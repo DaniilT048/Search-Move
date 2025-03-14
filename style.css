@@ -2,9 +2,46 @@
     box-sizing: border-box;
 }
 
-.container{
+body{
     background: gray;
-    display: flex;
-    justify-content: center;
 }
 
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #2e2f42;
+    height: 500px;
+}
+
+.search-form{
+    font-size: 50px;
+}
+#searchMoveInput{
+    font-size: 50px;
+    height: 100px;
+    width: 500px;
+}
+
+.errorContainer{
+    font-size: 50px;
+}
+
+#moveContainer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+
+}
+
+.movie{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    font-size: 25px;
+    font-weight: bold;
+    border: black solid 1px;
+}
+.movie {
+
+}

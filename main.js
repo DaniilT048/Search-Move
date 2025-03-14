@@ -44,8 +44,8 @@ function getHtmlForMovie(movieData){
     return`
     <div class="movie">
     <img src="${imgUrl}" alt="">
-    <span>${movieData.Title}</span>
-    <span>${movieData.Year}</span>
+    <p>${movieData.Title}</p>
+    <p>${movieData.Year}</p>
 </div>
     `
 }
