@@ -6,9 +6,11 @@ export default class MovieRenderer{
     clear(){
         this.movieContainerElement.innerHTML = '';
         this.errorContainerElement.innerHTML = '';
+        this.errorContainerElement.classList.add("hidden");
     }
     showError(message){
         this.errorContainerElement.innerHTML = `<p>${message}</p>`;
+        this.errorContainerElement.classList.remove("hidden");
     }
     render(movies){
         if (!movies || movies.length === 0) {
