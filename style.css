@@ -58,7 +58,7 @@ body{
 
 
 @media (max-width: 1500px){
-    #moveContainer{
+    #movieContainer{
         grid-template-columns: 1fr 1fr;
     }
     .movie{
@@ -67,7 +67,7 @@ body{
 }
 
 @media (max-width: 1000px){
-    #moveContainer{
+    #movieContainer{
         grid-template-columns: 1fr
     }
 }
