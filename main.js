@@ -41,11 +41,10 @@ async function onSearchMove(searchKey) {
 
 function getHtmlForMovie(movieData){
     const imgUrl = movieData.Poster?.startsWith('http') ? movieData.Poster : 'images/noImages.jpg';
-    return`
-    <div class="movie">
+    return`<div class="movie">
     <img src="${imgUrl}" alt="">
     <p>${movieData.Title}</p>
     <p>${movieData.Year}</p>
-</div>
-    `
+    </div>`
 }
+
